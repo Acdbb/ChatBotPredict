@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?\n1. Lodge a complaint\n2. Track my complaint",
+        "Hi there, how can I help?\n1. Lodge a complaint\n2. Track my complaint",
+        "Hello, I am here to help you!\nWhat would you like me to do?\n1. Lodge a complaint\n2. Track my complaint"
+      ]
+    },
+    {
+      "tag": "lodge",
+      "patterns": ["1",
+        "Lodge a complaint",
+        "I want to lodge a complaint",
+        "I wish to register a complaint.",
+        "I want to file a complaint",
+        "Report a problem with street lights",
+        "Complain about street light issues",
+        "Reporting street light problems",
+        "Submit a complaint about street lighting",
+        "Complaint regarding street light malfunction",
+        "Complaint about water problems",
+        "Report water supply issues",
+        "I have a water-related complaint",
+        "Lodge a complaint about water",
+        "Complain about water quality",
+        "Electricity problems in my area",
+        "Reporting electrical issues",
+        "Lodge a complaint about power",
+        "Complain about power outages",
+        "Potholes on my street",
+        "Report road potholes",
+        "I want to complain about potholes",
+        "Complain about road conditions",
+        "Illegal settlement issue in my neighborhood",
+        "Report an illegal settlement",
+        "Lodge a complaint about illegal housing",
+        "Complain about unauthorized housing",
+        "Waste management problems in my area",
+        "Report waste disposal issues",
+        "I have a complaint about garbage collection",
+        "Lodge a complaint about waste management",
+        "Complain about litter and trash"]
+    ,
+      "responses": ["Sure! Pls provide a detailed description"]
+    },
+    {
+      "tag": "track",
+      "patterns": ["2",
+        "Track my complaint",
+        "I wish to track my lodged complaint",
+        "I want to track my complaint",
+        "I'd like to check the status of my complaint that I lodged.",
+        "I want to know how my complaint is progressing.",
+        "I want to know about any progress regarding my complaint that I lodged.",
+        "Check the status of my housing complaint",
+        "Track my housing issue report",
+        "I want to monitor my complaint's status",
+        "Get updates on my reported problem",
+        "Follow up on my lodged complaint",
+        "Complaint status inquiry",
+        "Request information about my complaint",
+        "Find out how my complaint is being handled"],
+      "responses": ["Please enter your Case ID"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]
+}
